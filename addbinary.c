@@ -32,6 +32,21 @@ char* addBinary(char* a, char* b)
       k--;
    } 
 
+    if (k >= 0)
+   {
+      for (int m = 0; m <= maxlen; m++)
+      {
+         returns[m] = returns[m + 1];
+      }
+   }
+   
+   if (returns[0] == '\0')
+   {
+      returns[0] = '0';
+      returns[1] = '\0';
+   }
+
+
    return returns; 
 }
 
