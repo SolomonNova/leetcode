@@ -32,10 +32,12 @@ struct ListNode* deleteDuplicates(struct ListNode* head)
                 ptr2=ptr1->next;
             }
         }
+        
         ptr1=ptr1->next;
+        
     }
 
-    ptr2->next=NULL;
+        ptr2->next=NULL;
 
     return head;
 }
