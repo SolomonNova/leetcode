@@ -1,1 +1,1 @@
-leetcode solutions in c . They are not optimized.
+leetcode solutions in c and cpp . They are not optimized.
